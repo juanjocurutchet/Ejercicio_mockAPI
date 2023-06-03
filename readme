@@ -1,0 +1,7 @@
+Ejercicio mockAPI
+
+Consigna:
+
+Con lo visto en clase utilizar fetch con los métodos HTTP GET, POST, PUT y DELETE
+para crear un CRUD. Debe utilizarse con un frontend, no por consola. Deben mostrar 
+los datos y poder editarlos, borrarlos o crear nuevos.
