@@ -1,4 +1,4 @@
-// Variables globales
+'use strict'
 const apiUrl = "https://647687e29233e82dd53a1cb7.mockapi.io/usuarios";
 let users = [];
 const createButton = document.querySelector('.create');
