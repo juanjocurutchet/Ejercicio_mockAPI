@@ -1,6 +1,8 @@
 // Variables globales
 const apiUrl = "https://647687e29233e82dd53a1cb7.mockapi.io/usuarios";
 let users = [];
+const createButton = document.querySelector('.create');
+createButton.addEventListener("click", () => addUser())
 
 // Función para obtener los usuarios de la API...
 
@@ -48,11 +50,6 @@ function displayUsers() {
     row.appendChild(emailCell);
 
     const actionsCell = document.createElement("td");
-
-    const createButton = document.createElement("button");
-    createButton.textContent = "Create";
-    createButton.addEventListener("click", () => addUser());
-    actionsCell.appendChild(createButton);
 
     const editButton = document.createElement("button");
     editButton.textContent = "Edit";
